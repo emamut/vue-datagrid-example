@@ -1,49 +1,49 @@
 [
   {
     "name": "Gustavo Condoy",
-    "curse": "8B",
+    "course": "8B",
     "trimester": [
       {
-        "Comportamiento": 0.1,
-        "Matemáticas": 5.1,
-        "Ecología": 6.1,
-        "Inglés": 7.1
+        "comp": 0.1,
+        "mat": 5.1,
+        "eco": 6.1,
+        "ing": 7.1
       },
       {
-        "Comportamiento": 0.2,
-        "Matemáticas": 5.2,
-        "Ecología": 6.2,
-        "Inglés": 7.2
+        "comp": 0.2,
+        "mat": 5.2,
+        "eco": 6.2,
+        "ing": 7.2
       },
       {
-        "Comportamiento": 0.3,
-        "Matemáticas": 5.3,
-        "Ecología": 6.3,
-        "Inglés": 7.3
+        "comp": 0.3,
+        "mat": 5.3,
+        "eco": 6.3,
+        "ing": 7.3
       }
     ]
   },
   {
     "name": "Pamela Condoy",
-    "curse": "8B",
+    "course": "9B",
     "trimester": [
       {
-        "Comportamiento": 1.1,
-        "Matemáticas": 6.1,
-        "Ecología": 7.1,
-        "Inglés": 8.1
+        "comp": 1.1,
+        "mat": 6.1,
+        "eco": 7.1,
+        "ing": 8.1
       },
       {
-        "Comportamiento": 1.2,
-        "Matemáticas": 6.2,
-        "Ecología": 7.2,
-        "Inglés": 8.2
+        "comp": 1.2,
+        "mat": 6.2,
+        "eco": 7.2,
+        "ing": 8.2
       },
       {
-        "Comportamiento": 1.3,
-        "Matemáticas": 6.3,
-        "Ecología": 7.2,
-        "Inglés": 8.3
+        "comp": 1.3,
+        "mat": 6.3,
+        "eco": 7.2,
+        "ing": 8.3
       }
     ]
   }

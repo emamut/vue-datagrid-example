@@ -2,7 +2,8 @@ let app = new Vue({
   el: '#app',
   data() {
     return ({
-      data: []
+      data: [{}],
+      activeID: 0
     })
   },
   mounted() {
