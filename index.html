@@ -55,11 +55,12 @@
             </thead>
             <tbody>
               <tr v-for="(trimester, key) in data[activeID].trimester">
-                <td class="text-center">{{ key }}</td>
+                <td class="text-center">{{ key + 1 }}</td>
                 <td class="text-center">{{ trimester.mat }}</td>
                 <td class="text-center">{{ trimester.comp }}</td>
                 <td class="text-center">{{ trimester.eco }}</td>
-                <td class="text-center">{{ trimester.ing }}
+                <td class="text-center">{{ trimester.ing }}</td>
+                <td class="text-center"><strong>{{ trimester.prom }}</strong></td>
               </tr>
             </tbody>
           </table>
