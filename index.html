@@ -63,6 +63,22 @@
                 <td class="text-center"><strong>{{ trimester.prom }}</strong></td>
               </tr>
             </tbody>
+            <tfoot>
+              <tr>
+                <th></th>
+                <th class="text-center">{{ data[activeID].sum.mat.toFixed(2) }}</th>
+                <th class="text-center">{{ data[activeID].sum.comp.toFixed(2) }}</th>
+                <th class="text-center">{{ data[activeID].sum.eco.toFixed(2) }}</th>
+                <th class="text-center">{{ data[activeID].sum.ing.toFixed(2) }}</th>
+              </tr>
+              <tr>
+                <th>Promedio</th>
+                <th class="text-center">{{ (data[activeID].sum.mat / data[activeID].trimester.length).toFixed(2) }}</th>
+                <th class="text-center">{{ (data[activeID].sum.comp / data[activeID].trimester.length).toFixed(2) }}</th>
+                <th class="text-center">{{ (data[activeID].sum.eco / data[activeID].trimester.length).toFixed(2) }}</th>
+                <th class="text-center">{{ (data[activeID].sum.ing / data[activeID].trimester.length).toFixed(2) }}</th>
+              </tr>
+            </tfoot>
           </table>
         </div>
       </div>

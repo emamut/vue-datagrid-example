@@ -17,10 +17,23 @@ let app = new Vue({
   },
   methods: {
     addSumAndProm: function () {
+      let allSum = {
+        mat: 0,
+        comp: 0,
+        eco: 0,
+        ing: 0
+      }
+
       this.data[this.activeID].trimester.forEach(item => {
-        // console.log("item", item)
-        item.prom = (item.mat + item.comp + item.eco + item.ing) / 4
+        item.prom = ((item.mat + item.comp + item.eco + item.ing) / 4).toFixed(2)
+
+        allSum.mat += item.mat
+        allSum.comp += item.comp
+        allSum.eco += item.eco
+        allSum.ing += item.ing
       });
+
+      this.data[this.activeID].sum = allSum
     }
   },
   watch: {
